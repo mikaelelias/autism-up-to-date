@@ -21,6 +21,7 @@
 .image-logo {
     display: flex;
     align-items: center;
+    width: 4rem;
 }
 
 .nav_2 {
@@ -29,13 +30,10 @@
     font-size: 20px;
 }
 
-img {
-    width: 4rem;
-}
-
 .img_banner {
-    width: 80rem;
-    margin-left: 10rem;
+    width: 100rem;
     margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
 }
 
