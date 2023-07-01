@@ -10,11 +10,13 @@
 .container_header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 5rem;
     background-color: rgb(234, 235, 235);    
     color: rgb(80, 77, 77);
     padding: 0 1rem;
+    gap: 15rem;
+    margin: 0 auto;
 }
 
 .image-logo {
@@ -30,7 +32,7 @@
 .nav_2 {
     display: flex;
     gap: 2rem;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .banner {
@@ -42,17 +44,27 @@
 .img_banner img {
     max-width: 100%;
     height: auto;
+    margin-top: 1rem;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .caixas {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
-.test1 {
-    width: 200px;
+.inf-cx1, .inf-cx2, .inf-cx3, .inf-cx4, .inf-cx5, .inf-cx6 {
+    width: 280px;
     height: 200px;
-    background-color: red;
+    border: 5px solid;
+    margin: 2rem;
 }
