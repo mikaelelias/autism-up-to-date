@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima:wght@400;600;700&family=Montserrat:wght@700&family=Open+Sans:wght@300;500;700&family=Poppins:wght@100;400&family=Roboto+Condensed:wght@300&family=Roboto:wght@700&family=Space+Grotesk:wght@500&display=swap');
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Belanosima', sans-serif;
@@ -10,17 +10,17 @@
 .container_header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-between;
     height: 5rem;
-    background-color: rgb(20, 210, 207);    
-    gap: 40rem;
+    background-color: rgb(234, 235, 235);    
     color: rgb(80, 77, 77);
+    padding: 0 1rem;
 }
 
 .image-logo {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .img-autism {
@@ -33,9 +33,26 @@
     font-size: 25px;
 }
 
-.img_banner {
-    margin: 8rem;
-    margin-top: 2.5rem;
+.banner {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
+.img_banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caixas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.test1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
