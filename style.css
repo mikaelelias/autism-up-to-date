@@ -60,15 +60,17 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-.inf-cx1, .inf-cx2, .inf-cx3, .inf-cx4, .inf-cx5, .inf-cx6 {
-    width: 280px;
-    height: 400px;
+.inf-cx1, .inf-cx2, .inf-cx3, .inf-cx4{
+    width: 350px;
+    height: 270px;
     border: 5px solid;
     margin: 2rem;
+    border: none;
 }
 
-.img_therapy, .img_entenda{
+.img_therapy, .img_entenda, .img_acessibilidade, .img_direito{
     width: 100%;
 }
