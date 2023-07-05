@@ -66,7 +66,11 @@
     justify-content: center;
     flex-direction: row;
     text-align: center;
-    
+    margin-top: 5rem;    
+}
+
+.text-cx {
+    margin-top: 1.5rem;
 }
 
 .inf-cx1, .inf-cx2, .inf-cx3, .inf-cx4{
@@ -75,6 +79,7 @@
     border: 5px solid;
     margin: 2rem;
     border: none;
+    color: white;
 }
 
 .img_therapy, .img_entenda, .img_acessibilidade, .img_direito{
