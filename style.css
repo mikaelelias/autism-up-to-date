@@ -61,12 +61,13 @@
     border: 1px solid;
     border-color: rgb(181, 178, 178);
     border-radius: 15px;
-    height: 40rem;
+    height: 31rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
     text-align: center;
-    margin-top: 5rem;    
+    gap: 2rem;
 }
 
 .text-cx {
@@ -87,8 +88,14 @@
     border-radius: 10px;
 }
 
-.btn-infor {
-    padding: 2rem;
+.btn button {
     width: 12rem;
     height: 3rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: center;
 }
