@@ -49,7 +49,7 @@
 }
 
 .information {
-    background-color: rgb(44, 73, 116);
+    background-color: rgb(48, 121, 158);
     height: 60rem;
     display: flex;
     align-items: center;
@@ -84,4 +84,11 @@
 
 .img_therapy, .img_entenda, .img_acessibilidade, .img_direito{
     width: 100%;
+    border-radius: 10px;
+}
+
+.btn-infor {
+    padding: 2rem;
+    width: 12rem;
+    height: 3rem;
 }
