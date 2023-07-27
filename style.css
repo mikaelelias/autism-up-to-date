@@ -138,3 +138,14 @@
     color: #fff;
     gap: 10rem;
 }
+
+.newsletter p {
+    margin-top: 25px;
+}
+
+.newsletter input {
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+    width: 21rem;
+}
