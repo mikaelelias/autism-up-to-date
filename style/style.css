@@ -2,7 +2,6 @@
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Belanosima', sans-serif;
 }
@@ -17,6 +16,7 @@
     padding: 0 1rem;
     gap: 15rem;
     margin: 0 auto;
+    width: 100%;
 }
 
 .image-logo {
@@ -46,6 +46,7 @@
 }
 
 .img_banner img {
+    width: 100%;
     max-width: 100%;
     height: auto;
     margin-top: 1rem;
