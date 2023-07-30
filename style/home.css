@@ -6,6 +6,15 @@
     font-family: 'Belanosima', sans-serif;
 }
 
+body {
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container_header {
     display: flex;
     align-items: center;
