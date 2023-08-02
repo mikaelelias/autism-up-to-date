@@ -29,7 +29,7 @@ form {
     margin-top: 5px;
 }
 
-form h3 {
+form h3, label {
     margin-top: 2rem;
 }
 
@@ -42,7 +42,14 @@ form input {
 
 .checkbox {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+}
+
+.submit {
+    width: 30%;
+    margin-top: 2rem;
+    height: 2rem;
+    background-color: aliceblue;
+    border: none;
+    margin-bottom: 5rem;
 }
