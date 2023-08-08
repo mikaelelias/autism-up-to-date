@@ -13,9 +13,10 @@
 }
 
 .txt-entenda p {
-    margin: 30%;
+    margin: 0 30% 5rem;
     text-align: justify;
     margin-top: 4rem; 
+    text-align: 20px;
 }
 
 
