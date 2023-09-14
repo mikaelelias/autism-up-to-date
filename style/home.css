@@ -6,6 +6,10 @@
     font-family: 'Belanosima', sans-serif;
 }
 
+.container {
+    
+}
+
 .container_header {
     display: flex;
     align-items: center;
