@@ -1,24 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima:wght@400;600;700&family=Montserrat:wght@700&family=Open+Sans:wght@300;500;700&family=Poppins:wght@100;400&family=Roboto+Condensed:wght@300&family=Roboto:wght@700&family=Space+Grotesk:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Belanosima', sans-serif;
-}
-
-.container {
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 .container_header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 5rem;
-    background-color: rgba(221, 229, 231, 0.74);    
+    height: 80px;
+    background-color: rgba(221, 229, 231, 0.74);
     color: rgb(80, 77, 77);
-    padding: 0 1rem;
-    gap: 15rem;
+    padding: 0 16px;
+    gap: 240px;
     margin: 0 auto;
     width: 100%;
 }
@@ -30,20 +25,21 @@
 }
 
 .img-autism {
-    width: 4rem;
+    width: 64px;
 }
 
 .nav_2 {
     display: flex;
-    gap: 2rem;
+    gap: 32px;
     font-size: 15px;
     list-style-type: none;
     text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .banner {
-    height: 55rem;
+    height: 880px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,55 +47,58 @@
 
 .img_banner img {
     width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin-top: 1rem;
+    height: 100%;
+    object-fit: cover;
 }
 
 .information {
     background-color: rgb(48, 121, 158);
-    height: 60rem;
+    height: 960px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 8px;
 }
 
 .caixas {
     border: 1px solid;
     border-color: rgb(181, 178, 178);
     border-radius: 15px;
-    height: 31rem;
+    height: 496px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     text-align: center;
-    gap: 2rem;
+    gap: 32px;
+    margin: 32px;
 }
 
 .text-cx {
-    margin-top: 1.5rem;
+    margin-top: 24px;
 }
 
-.inf-cx1, .inf-cx2, .inf-cx3, .inf-cx4{
+.inf-cx1,
+.inf-cx2,
+.inf-cx3,
+.inf-cx4 {
     width: 350px;
     height: 270px;
-    border: 5px solid;
-    margin: 2rem;
-    border: none;
-    color: white;
+    margin: 32px;
 }
 
-.img_therapy, .img_entenda, .img_acessibilidade, .img_direito{
+.img_therapy,
+.img_entenda,
+.img_acessibilidade,
+.img_direito {
     width: 100%;
     border-radius: 10px;
 }
 
 .btn button {
-    width: 12rem;
-    height: 3rem;
-    margin-top: 2rem;
+    width: 192px;
+    height: 48px;
+    margin-top: 32px;
     border-radius: 5px;
     border: none;
     text-transform: uppercase;
@@ -110,12 +109,12 @@
 
 .sobre {
     margin: auto;
-    height: 40rem;
+    height: 640px;
 }
 
 .sobre-nos {
     display: flex;
-    margin: 20rem 34rem 0;
+    margin: 320px 544px 0;
     align-items: center;
     justify-content: center;
     font-size: 20px;
@@ -124,7 +123,7 @@
 .sobre-nos h1 {
     font-size: 40px;
     color: rgb(242, 134, 1);
-    margin: 0 0 1.5rem;
+    margin: 0 0 24px;
 }
 
 .text-sobre {
@@ -135,13 +134,13 @@
 
 .newsletter {
     display: flex;
-    height: 20rem;
+    height: 320px;
     background-color: rgb(255, 196, 0);
     align-items: center;
     justify-content: center;
     font-size: 20px;
     color: #fff;
-    gap: 10rem;
+    gap: 160px;
 }
 
 .newsletter p {
@@ -151,6 +150,6 @@
 .newsletter input {
     border-radius: 5px;
     border: none;
-    height: 2rem;
-    width: 21rem;
+    height: 48px;
+    width: 336px;
 }
