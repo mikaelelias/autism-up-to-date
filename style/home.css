@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    padding: 0;
 }
 
 .container_header {
@@ -18,16 +20,6 @@
     width: 100%;
 }
 
-.image-logo {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.img-autism {
-    width: 64px;
-}
-
 .nav_2 {
     display: flex;
     gap: 32px;
@@ -38,61 +30,42 @@
     text-decoration: none;
 }
 
-.banner {
-    height: 880px;
+.container_information {
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.img_banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.information {
     background-color: rgb(48, 121, 158);
-    height: 960px;
+    height: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
     gap: 8px;
 }
 
 .caixas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid;
     border-color: rgb(181, 178, 178);
     border-radius: 15px;
-    height: 496px;
+    width: 500px;
+    height: 450px;
+    margin: 20px;
+}
+
+.inf-boxs {
+    height: 200px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    flex-direction: row;
+    justify-content: center;
     text-align: center;
-    gap: 32px;
-    margin: 32px;
 }
 
-.text-cx {
-    margin-top: 24px;
-}
-
-.inf-cx1,
-.inf-cx2,
-.inf-cx3,
-.inf-cx4 {
-    width: 350px;
-    height: 270px;
-    margin: 32px;
-}
-
-.img_therapy,
-.img_entenda,
-.img_acessibilidade,
-.img_direito {
-    width: 100%;
+.img_boxs {
+    max-width: 90%;
+    height: 300px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .btn button {
