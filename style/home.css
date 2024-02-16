@@ -33,11 +33,12 @@
 .container_information {
     display: flex;
     align-items: center;
-    background-color: rgb(48, 121, 158);
-    height: auto;
-    display: flex;
+    justify-content: center;
     flex-direction: row;
+    background-color: rgb(48, 121, 158);
+    height: 820px;
     gap: 8px;
+    flex-wrap: wrap;
 }
 
 .caixas {
@@ -62,10 +63,11 @@
 }
 
 .img_boxs {
-    max-width: 90%;
+    width: 350px;
     height: 300px;
     border-radius: 10px;
     margin-bottom: 20px;
+    object-fit: cover;
 }
 
 .btn button {
